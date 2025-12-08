@@ -17,8 +17,10 @@ const Hero = () => {
         </p>
         <div className="flex gap-6 justify-center">
           <a 
-            href="#" 
-            download
+            href="/resume.pdf"
+            download="Richard_Mai_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-10 py-4 no-underline font-medium transition-all duration-300 text-base tracking-wider border-2 border-black dark:border-white bg-black dark:bg-white text-white dark:text-black hover:bg-transparent hover:text-black dark:hover:bg-transparent dark:hover:text-white"
           >
             Download CV
