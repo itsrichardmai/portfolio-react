@@ -4,12 +4,12 @@ const experienceData = [
   {
     date: '2021 - Present',
     title: 'Software Developer',
-    company: 'Freelancer',
+    company: 'Freelancer | Self-Employed',
     description: 'Developed and maintained full-stack applications using modern frameworks. Collaborated with cross-functional teams to deliver high-quality software solutions.'
   },
   {
-    date: '2021 - 2025',
-    title: 'Software Engineer (Intern) -> (Junior)',
+    date: '2022 - 2025',
+    title: 'Software Engineer Entry-> Junior -> Mid-Level',
     company: 'Duba Company llc',
     description: 'Architected and implemented full‑stack web applications and scalable hosting for 25+ restaurant locations, improving system availability to 99.9% and reducing deployment time by 70% through automated infrastructure and centralized data management.'
   },
