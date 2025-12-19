@@ -25,7 +25,7 @@ const projectsData = [
     description: 'A full-stack cryptocurrency forecasting platform with real-time prices, paper trading, news integration, and interactive charts powered by CoinGecko API. User authentication & routing implemented. Under Development: Fine-tune AI agent to forecast trends based on backtesting and historical trends. Deploy ML models with TensorFlow.js for in-browser predictions.',
     image: '/projects/project3.jpg', 
     tech: ['Next.js', 'TypeScript', 'Firebase', 'Tailwind CSS', 'CoinGecko API', 'NewsAPI', 'N8N', 'Recharts', 'Vercel'],
-    liveLink: 'https://crypto-dashboard-git-main-richard-mais-projects.vercel.app/',
+    liveLink: 'https://crypto-dashboard-plum-six.vercel.app/dashboard',
     githubLink: 'https://github.com/itsrichardmai/crypto-dashboard'
   },
   {
@@ -35,16 +35,16 @@ const projectsData = [
     image: '/projects/project4.jpg', 
     tech: ['Python', 'OCR', 'Tesseract', 'Google Sheets API', 'Data Parser', 'Google Auth', 'Pillow', 'Selenium', 'BeautifulSoup', 'Pandas', 'VSC', 'Github'],
     liveLink: '#',
-    githubLink: 'https://github.com/gwyczz/'
+    githubLink: '#'
   },
     {
     id: 5,
-    title: 'AI Agent for IP/Proxy Threat Detection',
-    description: 'AI-Driven Proxy Validation & User -> Edge Gateway -> Enrichment Bus -> Threat Intel Layer -> Access Control -> Application Layer | Under Construction ',
+    title: 'SMAPI Stardew Valley Blacksmith Mod',
+    description: 'A SMAPI mod for Stardew Valley that automates the repetitive process of breaking geodes, enhancing the gameplay experience by reducing repetitive tasks. The mod is designed to be user-friendly and integrates seamlessly with the game\'s mechanics.',
     image: '/projects/project5.jpg', 
-    tech: ['Cloudflare Radar API', 'Spamhaus DROP lists', 'AlienVault OTX', 'IP2Proxy / IP2Location', 'OpenCTI', 'Elastic Stack', 'MISP', 'Pytorch', 'TensorFlow'],
+    tech: ['C#, Visual Studio, Stardew Valley Modding API, SMAPI, '],
     liveLink: '#',
-    githubLink: '#'
+    githubLink: 'https://github.com/itsrichardmai/SMAPI-StardewValley-GeodeAutomater'
   },
     {
     id: 6,
