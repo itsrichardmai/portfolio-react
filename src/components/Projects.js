@@ -42,7 +42,7 @@ const projectsData = [
     title: 'SMAPI Stardew Valley Blacksmith Mod',
     description: 'A SMAPI mod for Stardew Valley that automates the repetitive process of breaking geodes, enhancing the gameplay experience by reducing repetitive tasks. The mod is designed to be user-friendly and integrates seamlessly with the game\'s mechanics.',
     image: '/projects/project5.jpg', 
-    tech: ['C#, Visual Studio, Stardew Valley Modding API, SMAPI, '],
+    tech: ['C#', 'Visual Studio', 'Stardew Valley Modding API', 'SMAPI', 'Github'],
     liveLink: '#',
     githubLink: 'https://github.com/itsrichardmai/SMAPI-StardewValley-GeodeAutomater'
   },
