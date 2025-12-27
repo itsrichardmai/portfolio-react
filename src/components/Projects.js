@@ -4,20 +4,21 @@ const projectsData = [
   {
     id: 1,
     title: 'Duba Karaoke SPA',
-    description: 'A full-stack React website. The site features a modern black and yellow theme, comprehensive menu system, karaoke room bookings, photo gallery, and email-based reservation system.',
+    description: 'A full-stack professional React website created for Duba Karaoke Pub. The site features a modern black and yellow theme, comprehensive menu system, karaoke room bookings, photo gallery, and email-based reservation system, accomplishing all function and golas of client .',
     image: '/projects/project1.jpg', 
     tech: ['React', 'Node.js', 'ViteJS', 'TailwindCSS', 'GH-Pages', 'EmailJS', 'Figma'],
     liveLink: 'https://itsrichardmai.github.io/DubaKaraokePub2/',
     githubLink: 'https://github.com/itsrichardmai/DubaKaraokePub2'
   },
-  {
+    {
     id: 2,
-    title: 'CDA Task Management System [IP]',
-    description: 'Developed Python-based legal automation suite using Selenium, BeautifulSoup, and Pandas, reducing court case research from 45 to 9 minutes (80% efficiency gain) for California law firms. Automated California Superior Court case research workflow, extracting structured data from 10,000+ documents with 97% accuracy using web scraping, regex parsing, and data validation',
+    title: 'Data Structures | Algorithm | AI Visualiser',
+    description: 'An interactive web application that visualizes various data structures and algorithms, allowing users to understand their functionality through animations and step-by-step execution with playback controls. Integrating AI Agent .',
     image: '/projects/project2.jpg', 
-    tech: ['Python', 'Selenium', 'BeautifulSoup', 'Pandas', 'Requests', 'VSC', 'Github'],
-    liveLink: '#',
-    githubLink: 'https://github.com/gwyczz/'
+    tech: ['Next.js 16', 'React 19', 'TypeScript', 'Tailwind CSS v4', 'Framer Motion', 'Zustand',
+  'shadcn/ui', 'Radix UI', 'Lucide Icons', 'Turbopack', 'Vercel'],
+    liveLink: 'https://dsa-visualiser-three.vercel.app/',
+    githubLink: 'https://github.com/itsrichardmai/DSA-Visualizer'
   },
   {
     id: 3,
@@ -30,31 +31,22 @@ const projectsData = [
   },
   {
     id: 4,
-    title: 'HTU OCR Automated Case Management System [IP]',
-    description: 'Achieved 95% time reduction in repetitive tasks for California law firms by developing an OCR-powered case management system using Tesseract.js, Node.js, and Express. Automated document processing and data extraction from legal documents, enhancing accuracy and efficiency in case handling. Automatically updates when new data found and records to Google Docs',
+    title: 'Hearing Tracker Updater Case Management Automation',
+    description: 'Achieved 95% time reduction in repetitive tasks for California law firms by developing an OCR-powered case management system using Tesseract.js, Node.js, and Express. Automated document processing and data extraction from legal documents, enhancing accuracy and efficiency in case handling. Users are able to scrape data from case numbers, parse and store data in Supabase. Invited users ONLY. | Demo Available',
     image: '/projects/project4.jpg', 
-    tech: ['Python', 'OCR', 'Tesseract', 'Google Sheets API', 'Data Parser', 'Google Auth', 'Pillow', 'Selenium', 'BeautifulSoup', 'Pandas', 'VSC', 'Github'],
+    tech: ['Python', 'Python Worker',  'OCR', 'Tesseract', 'SupaBase', 'Data Parser', 'Google Auth', 'Pillow', 'Selenium', 'BeautifulSoup', 'Pandas', 'PostgreSQL', 'Github'],
     liveLink: '#',
     githubLink: '#'
   },
     {
     id: 5,
     title: 'SMAPI Stardew Valley Blacksmith Mod',
-    description: 'A SMAPI mod for Stardew Valley that automates the repetitive process of breaking geodes, enhancing the gameplay experience by reducing repetitive tasks. The mod is designed to be user-friendly and integrates seamlessly with the game\'s mechanics.',
+    description: 'A SMAPI mod for Stardew Valley that automates the repetitive process of breaking geodes, enhancing the gameplay experience by reducing repetitive tasks. The mod is designed to be user-friendly and integrates seamlessly with the game\'s mechanics. Probably patched :(',
     image: '/projects/project5.jpg', 
     tech: ['C#', 'Visual Studio', 'Stardew Valley Modding API', 'SMAPI', 'Github'],
     liveLink: '#',
     githubLink: 'https://github.com/itsrichardmai/SMAPI-StardewValley-GeodeAutomater'
-  },
-    {
-    id: 6,
-    title: 'Autonomous Learning Assistant/Tutor | Under Construction ',
-    description: 'An Agentic workflow system that leverages LLMs to autonomously summarize documents/courses and create personalized learning plans. Utilizes vector databases for knowledge storage and retrieval, enabling continuous learning and adaptation based on user progress and feedback.',
-    image: '#', 
-    tech: ['Python', 'PostgresQL', 'Neo4j', 'Pinecone', 'LangChain', 'HuggingFace', 'OpenAI LLM', 'React/Next.js', 'Github'],
-    liveLink: '#',
-    githubLink: '#'
-  },
+  }
 ];
 
 const Projects = () => {
